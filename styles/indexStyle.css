@@ -1,0 +1,80 @@
+@font-face{
+	font-family: PrimeReg;
+	src: url("./Prime Regular.woff");
+}
+@font-face{
+	font-family: PrimeLight;
+	src: url("./Prime Light.woff");
+}
+
+
+body {
+  background: rgb(150, 90, 90);
+  margin: 0;
+  padding: 0;
+  min-width: 800px;
+}
+
+.indexNav{
+	background-color: white;
+	box-shadow: 0px 5px 8px 10px rgba(0,0,0, 0.1);
+	position: relative;
+	top: 0;
+	width: auto;
+	height: 80px;
+
+	z-index: 999;
+	margin-top: 0px;
+
+
+	
+	
+}
+
+	
+.nav{
+	color: black;
+	float: right;
+	font-size: 20px;
+	letter-spacing: 0px;
+	position:  relative;
+
+	margin-top: 30px;
+	margin-left: 10px;
+	padding-right: 50px;
+
+	
+	text-transform: capitalize;
+	font-family: PrimeLight;
+	
+	
+	
+	
+	
+}
+.title{
+	display: inline-block;
+	float: left;
+	font-family: PrimeLight;
+	margin-left: 50px;
+	margin-top: 5px;
+}
+
+
+.navLink{
+	text-decoration: none;
+	text-align: center;
+	border
+	
+	
+
+}
+.navLink:visited{
+	color:  black;
+}
+.navLink:hover{
+	border-bottom: solid;
+	border-bottom-color: rgb(110,110,211);
+	padding-bottom: 22px;
+
+}
