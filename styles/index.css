@@ -1,0 +1,136 @@
+@font-face{
+	font-family: PrimeReg;
+	src: url("./Prime Regular.woff");
+}
+@font-face{
+	font-family: PrimeLight;
+	src: url("./Prime Light.woff");
+}
+
+body{
+    padding-top:70px;
+    background-color: rgb(230,255,230)
+}
+
+.content p, h1{
+    color: #555;
+    text-align: left;
+}
+.content p{
+    font-size:25px;
+}
+
+.nav{
+    background-color: rgb(54,54,54);
+    width: 100%;
+    
+    top:0;
+    margin-left:-8px;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+}
+.nav-container{
+    width:80%;
+    margin: auto;
+    height:100%;
+    
+}
+
+.content{
+    font-family:PrimeLight;
+    
+}
+.content-container{
+    width:80%;
+    margin: auto;
+}
+
+.content-games{
+    display:inline-block;
+    width:100%;
+}
+.content-games-screenshot{
+    float: left;
+    width:33%;
+    max-height: 100%;
+}
+
+.content-games-screenshot img{
+
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.content-games-about{
+    width:30%;
+    margin-top: 0;
+    padding: 0 20px;
+    display:inline-block;
+    max-height: 100%;
+}
+
+.content-games-about span{
+    font-size: 23px;
+    width:100%;
+    text-align: center;
+    
+}
+.content-games-team{
+    width:33%;
+    float: right;
+    max-height: 100%;
+    font-size: 20px;
+}
+
+
+
+
+.content-games-maze{
+    height: 50%;
+    margin-bottom: 10px;
+    overflow:hidden;
+}
+
+.navList{
+    list-style-type: none;
+    
+    font-family: PrimeReg;
+    padding: 0;
+    width:100%;
+    margin: 0;    
+}
+
+
+.navEl{
+    float: right;
+    position: relative;
+    color: #3AFF59;
+    text-align: center;
+    padding: 17px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display:block;
+}
+
+.navElIcon{
+    float: left;
+    position: relative;
+  color:#3AFF59;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  
+  
+}
+
+
+
+.navList a:hover{
+    color: rgb(54,54,54);
+    background-color: #3AFF59
+}
+
+
+
